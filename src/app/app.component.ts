@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angularui';
+
+  title: string;
+
+  constructor() {
+    this.title = 'Spring Boot 3.0 - Angular 14 Application';
+  }
 }
+
